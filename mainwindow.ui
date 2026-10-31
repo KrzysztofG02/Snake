@@ -30,7 +30,7 @@
        <item>
         <layout class="QVBoxLayout" name="verticalLayout">
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,5">
+          <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="2,9,1">
            <item>
             <widget class="QLabel" name="label">
              <property name="sizePolicy">
@@ -66,10 +66,17 @@
              </property>
             </widget>
            </item>
+           <item>
+            <widget class="QLabel" name="boardLengthLabel">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,5">
+          <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="2,9,1">
            <item>
             <widget class="QLabel" name="label_2">
              <property name="text">
@@ -99,10 +106,17 @@
              </property>
             </widget>
            </item>
+           <item>
+            <widget class="QLabel" name="gameIntervalLabel">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,5">
+          <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="2,9,1">
            <property name="sizeConstraint">
             <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
            </property>
@@ -126,6 +140,13 @@
              </property>
              <property name="orientation">
               <enum>Qt::Orientation::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lineThicknessLabel">
+             <property name="text">
+              <string/>
              </property>
             </widget>
            </item>
