@@ -1,5 +1,4 @@
 # Snake
-
 "Snake" is a simple arcade game where you control a snake on a board.
 Your goal is to fill the entire board with the snake's body. 
 The snake grows longer as it consumes food that appears in random locations. 
@@ -8,6 +7,13 @@ If the snake hits a wall or collides with itself, you lose.
 <img width="2560" height="1392" alt="ss" src="https://github.com/user-attachments/assets/6d3d89b9-f341-4ec1-b79f-d1315ab66552" />
 <img width="2560" height="1392" alt="ss" src="https://github.com/user-attachments/assets/c220f12d-1ab4-4b7b-a82b-89b3a7f60ae0" />
 <img width="2560" height="1392" alt="ss" src="https://github.com/user-attachments/assets/6f7028e6-954d-48fd-9eac-3bc0575cdeda" />
+
+
+## Built With & Technologies 🛠️
+This project was built using the following technologies and libraries:
+* **C++**
+* **Qt**
+* **SFML** (Simple and Fast Multimedia Library)
 
 
 ## How It Works
